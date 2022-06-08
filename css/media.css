@@ -1,0 +1,371 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1027px) {
+	.text-garant {
+	    position: relative;
+	    z-index: 1112;
+	    font-family: 'Comfortaa-Bold';
+	    text-align: center;
+	    width: 568px;
+	    margin: 0px 10px -104px 0px;
+	    font-size: 62px;
+	    float: right;
+	    padding: 18px 0 76px 0;
+	}
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	.text-garant {
+	    position: relative;
+	    z-index: 1112;
+	    font-family: 'Comfortaa-Bold';
+	    text-align: center;
+	    width: 568px;
+	    margin: 0px 0px -104px 0px;
+	    font-size: 62px;
+	    float: right;
+	    padding: 18px 0 76px 0;
+	}
+
+	.media-main-wrap {
+    background: url(../images/center-ramka.png) 0 0 repeat-y;
+    position: relative;
+    background-size: contain;
+    width: 100%;
+    border-radius: 32px;
+    margin: 0 auto;
+    z-index: 11;
+}
+
+.media-main-wrap:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/top-ramka.png) 0 0 no-repeat;
+    background-size: contain;
+    content: '';
+}
+
+.media-main-wrap:after {
+    position: absolute;
+    top: unset;
+    left: 0;
+    right: 0;
+    height: 192px;
+    bottom: 0;
+    background: url(../images/bottom-ramka.png) 0 0 no-repeat;
+    background-size: contain;
+    content: '';
+}
+
+.media-titlt-wrap {
+    font-size: 40px;
+    position: relative;
+    font-family: 'Comfortaa-Bold';
+    line-height: 76px;
+    position: relative;
+    color: #F7F0E9;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    padding: 140px 40px 140px 251px;
+    background: url(../images/crystal.png) 20px 120px no-repeat;
+    z-index: 11;
+    width: 100%;
+}
+
+
+.text-garant:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url(../images/bg-grand.png) 0 0 no-repeat;
+}
+
+
+.text-action:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url(../images/action.png) 0 0 no-repeat;
+    background-size: 26%;
+}
+
+.text-garant {
+    position: relative;
+    z-index: 1112;
+    font-family: 'Comfortaa-Bold';
+    text-align: right;
+    width: 358px;
+    margin: 0px 4px -120px 0px;
+    font-size: 52px;
+    float: right;
+    padding: 24px 23px 76px 66px;
+}
+
+.text-action {
+    position: relative;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+    font-size: 38px;
+    line-height: 69px;
+    font-family: 'Comfortaa-Bold';
+    padding: 21px 0 40px 33px;
+    z-index: 111;
+    margin: -33px 0 -134px 10px;
+}
+  
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+.text-action {
+    position: relative;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+    font-size: 36px;
+    line-height: 69px;
+    font-family: 'Comfortaa-Bold';
+    padding: 14px 0 40px 33px;
+    z-index: 111;
+    margin: 17px 0 -156px -10px;
+    width: 185px;
+}
+
+.text-action:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url(../images/action.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+
+
+.media-titlt-wrap {
+    font-size: 34px;
+    position: relative;
+    font-family: 'Comfortaa-Bold';
+    line-height: 65px;
+    position: relative;
+    color: #F7F0E9;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    padding: 113px 40px 140px 40px;
+    background: none;
+    z-index: 11;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-garant:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url(../images/bg-grand.png) center 0 no-repeat;
+}
+
+.media-main-wrap:after {
+    position: absolute;
+    top: unset;
+    left: 0;
+    right: 0;
+    height: 192px;
+    bottom: -70px;
+    background: url(../images/bottom-ramka.png) 0 0 no-repeat;
+    background-size: contain;
+    content: '';
+}
+
+.text-garant {
+    position: relative;
+    z-index: 1112;
+    font-family: 'Comfortaa-Bold';
+    text-align: center;
+    width: 100%;
+    margin: 0px 5px -186px 0px;
+    font-size: 52px;
+    margin: 0 auto;
+    float: none;
+    padding: 24px 0px 76px 0px;
+}
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+.media-titlt-wrap {
+    font-size: 28px;
+    position: relative;
+    font-family: 'Comfortaa-Bold';
+    line-height: 54px;
+    position: relative;
+    color: #F7F0E9;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    padding: 113px 10px 140px 40px;
+    background: none;
+    z-index: 11;
+    width: 100%;
+}
+
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+ .media-titlt-wrap {
+    font-size: 25px;
+    position: relative;
+    font-family: 'Comfortaa-Bold';
+    line-height: 54px;
+    position: relative;
+    color: #F7F0E9;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    padding: 113px 10px 140px 30px;
+    background: none;
+    z-index: 11;
+    width: 100%;
+}
+
+.text-garant:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: none;
+    background: no-repeat;
+
+}
+
+.head-text img {
+	display: none;
+}
+
+.head-text span {
+	display: block;
+}
+
+.text-garant {
+    position: relative;
+    z-index: 1112;
+    font-family: 'Comfortaa-Bold';
+    text-align: center;
+    width: 100%;
+    margin: 0px 5px -186px 0px;
+    font-size: 52px;
+    margin: 0 auto 40px auto;
+    float: none;
+    padding: 24px 0px 24px 0px;
+    border-radius: 12px;
+    background: #683fc3;
+}
+
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+.text-action {
+    position: relative;
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+    font-size: 31px;
+    line-height: 69px;
+    font-family: 'Comfortaa-Bold';
+    padding: 8px 0 40px 29px;
+    z-index: 111;
+    margin: 15px 0 -148px -10px;
+    width: 155px;
+}
+
+.text-action:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: url(../images/action.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.btn-action {
+    font-family: 'Comfortaa-Bold';
+    font-size: 29px;
+    position: relative;
+    line-height: 31px;
+    color: #593111;
+    width: 231px;
+    display: block;
+    z-index: 1;
+    margin: 180px auto 20px auto;
+    text-shadow: 0px 2px 10px rgb(0 0 0 / 15%);
+    transform: translate(0%, 50%);
+    cursor: pointer;
+    background: url(../images/btn-avtion.png) center 0 no-repeat;
+    background-size: contain;
+    padding: 35px 0 26px 0px;
+    z-index: 1111;
+}
+
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 377px) {
+.head-text {
+    color: #fff;
+    margin: 27px 0 21px 0;
+    font-family: 'Comfortaa-Bold';
+    text-align: center;
+    background: linear-gradient(94.43deg, #F1AC20 8.72%, #FFDF48 51.1%, #EF8707 97.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 41px;
+    line-height: 51px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
+}
+
+
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
